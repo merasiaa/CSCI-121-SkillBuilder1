@@ -13,7 +13,7 @@ public class SkillBuilder1 {
         Scanner input = new Scanner(System.in);
         System.out.println("You're Jane's friend!");
         System.out.println("What's your name?");
-        String userName = input.next();
+        String userName = input.nextLine();
         System.out.println("Enter a floating-point number:");
         double spice = input.nextDouble();
         double math_Expression = ((4.0/3.0)*Math.pow(2.0,(Math.sqrt(5.0)/Math.pow( spice, 3.0))));
